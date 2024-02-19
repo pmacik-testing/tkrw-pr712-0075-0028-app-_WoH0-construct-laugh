@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tzmb
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0028-tenant/tkrw-pr712-0075-0028-app/devfile-sample-tzmb@sha256:aea904a10157cc1da26b55192fc3c1d43f73c124f428e38070e191ef2eb3c597
         name: my-nodejs
         ports:
         - containerPort: 3001
